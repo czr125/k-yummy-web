@@ -1,0 +1,379 @@
+/* General */
+
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #85725f;
+}
+
+header {
+    background-color: #fae1c0;
+    border-bottom: 3px solid #221117;
+    padding-left: 30px;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #e30224;
+    border: 2px solid #8a0015;
+}
+
+.btn-primary:hover {
+    background-color: #8a0015;
+    border-color: #8a0015;
+}
+.msg{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#msgnot {
+    margin-left: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+/* Navbar */
+
+#navbar img {
+    width: 70px;
+}
+
+#navbar {
+    justify-content:space-between;
+    background-color: #fae1c0;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size: 22px;
+    color: #383434;
+    margin-right: 30px;
+}
+
+#navbar a:hover {
+    color: #e30224;
+}
+
+/* Carrousel */
+
+.carousel{
+    width: 100%;
+    height: 600px;
+    margin-top: 5px;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-item img{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    top: .5;
+}
+
+#carouselExampleIndicators {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Welcome Page About Us */
+
+#aboutus{
+    font-family: 'Roboto';
+    padding: 50px;
+}
+
+#aboutus h2{
+    color: white;
+    font-size: 28px;
+}
+
+#aboutus p{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+#aboutus img{
+    width: 700px;
+    height: 400px;
+    margin-right: 180px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#aboutus ion-icon {
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+/* Welcome Page Our Team */
+
+#ourteam-container {
+    display: grid;
+}
+
+#ourteam-container .card{
+    flex: 1 1 24%;
+    border-radius: 15px;
+    margin: 7px;
+    background-color: #f7e9d7;
+    margin-bottom: 40px;
+    box-shadow: 7px 10px 3px #323131;
+    align-items: center;
+}
+
+#ourteam{
+    background-color: #332d27;
+    padding: 30px;
+}
+
+#ourteam h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#ourteam h5{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#ourchefs {
+    justify-content: center;
+}
+
+.card-ourteamname{
+    color: #212121;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card-ourteamsub{
+    color: #332d27;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#ourteam img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px black;
+    object-fit:fill ;
+}
+
+#place {
+    padding: 50px;
+}
+
+#place h2{
+    color:white;
+}
+
+#place p{
+    color: white;
+}
+
+/* Reservation page */
+
+#reservation{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+
+#reservation h2{
+    margin-bottom: 30px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#reservation h5{
+    color: #f7e9d7;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+#btn-reservation{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+/* Inside Show Reservation */
+
+#info-container{
+    margin-top: 30px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin: 0;
+    display: flex;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#info-container h3{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+/*Create Reservation Page*/
+
+#reservation-create-container{
+    padding: 30px;
+}
+#reservation-create-container label{
+    font-weight: bold;
+}
+#reservation-create-container input{
+    font-size: 12px;
+}
+.create{
+    margin-top: 20px;
+}
+.form-group{
+    padding: 10px;
+}
+
+/* Plates List */
+
+#plates-container {
+    padding: 50px;
+    display: grid;
+}
+
+h2{
+    margin-bottom: 30px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+h5 {
+    color: #f7e9d7;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+}
+
+#plates-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+    background-color: #f7e9d7;
+    margin-bottom: 40px;
+    box-shadow: 7px 10px 3px #323131;
+}
+
+#plates-container img{
+    max-height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-subtitle{
+    color: #332d27;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.card .card-price{
+    font-size: 22px;
+    color: #e30224;
+    margin-bottom: 0px;
+}
+
+.card .card-name{
+    color: #212121;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card-description{
+    font-size: 17px;
+    color: #757575;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th{
+   width: 15%;
+}
+
+.dashboard-events-container form{
+    display: inline-block;
+    margin-left: 10px;
+}
+/* Delivery */
+
+
+
+/* Footer */
+
+footer{
+    text-align: center;
+    background-color: #332d27;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #221117;
+}
+
+footer p {
+    margin-bottom: 0;
+}
